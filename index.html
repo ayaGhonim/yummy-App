@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <link rel="shortcut icon" href="imgs/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- looding screen -->
+  
+    <div id="loading">
+        <div class="sk-chase">
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+          </div>
+    </div>
+    <!-- end looding screen -->
+
+    <!-- side nav -->
+    <aside>
+        <div class="side">
+            <div class="part-of-side">
+                <img src="imgs/logo.png" class=" mt-4" width="60" height="60" alt="">
+                <div>
+                    <p class="fs-1 position-absolute  open-bar"><i class="fas fa fa-bars"></i></p>
+                    <p class="fs-1 position-absolute ms-3 close-bar "><i class="fa-solid fa-close"></i></p>
+                </div>
+                <div class=" mt-5 position-absolute icons fs-5">
+                    <p><i class="fa-solid fa-globe"></i></p>
+                    <p><i class="fa-solid fa-share-nodes"></i></p>
+                </div>
+            </div>
+            <div class="links">
+                <ul class="mt-5 mx-3 list-unstyled"> 
+                     <li class="my-2 text-decoration-none text-white position-absolute" id="liSearch" >Search</li>
+                    <li class="my-2 text-decoration-none text-white position-absolute" id="liCategory">Categories</li>
+                    <li class="my-2 text-decoration-none text-white position-absolute" id="liArea">Area</li>
+                    <li class="my-2 text-decoration-none text-white position-absolute" id="liIngredients">Ingredients</li>
+                    <li class="my-2 text-decoration-none text-white position-absolute" id="liContact" >Contact Us</li>
+                </ul>
+            </div>
+            <div class="nav-foot mx-2">
+                <div class="d-flex text-white">
+                    <p><i class="fa-brands fa-facebook mx-1"></i></p>
+                    <p><i class="fa-brands fa-twitter mx-1"></i></p>
+                    <p><i class="fa-solid fa-globe mx-1"></i></p>
+                </div>
+                <p class="text-white">Copyright Â© 2019 All Rights Reserved.</p>
+            </div>
+        </div>
+    </aside> 
+    <!-- end side nav -->
+
+
+
+    <!-- search section -->
+    <section id="search">
+        <div class="container">
+
+            <div class="d-flex pt-3 pb-5">
+                <input class="form-control shadow-none w-50 me-3 bg-transparent text-white" type="text"
+                    id="searchByName" placeholder="Search By Name ...">
+                <input class="form-control shadow-none w-50 bg-transparent text-white" maxlength="1" type="text"
+                    id="searchByLetter" placeholder="Search By First Letter ...">
+            </div>
+
+        </div>
+    </section>
+    <!-- end search section -->
+
+
+
+    <!-- main section -->
+    <section id="mainHome">
+        <div class="container">
+            <div class="row " id="mainFood">
+                <!-- <div class="col-md-3 mt-5 position-relative overflow-hidden bg-info">
+                    <img src="imgs/logo.png" class="w-100 rounded-3" alt="">
+                    <div class="layer position-absolute rounded-3 bg-opacity-75 bg-white">
+                        <h4 class="food-name fs-1 ">hello</h4>
+                    </div>
+
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <section id="dishInfo">
+        <div class="container">
+            <div class="row text-white pt-4" id="mealInfo">
+            </div>
+        </div>
+    </section>
+      <!-- end main section -->
+
+  
+
+    <!-- category section -->
+    <section id="category">
+        <div id="loadCategory">
+            <div class="sk-chase">
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+              </div>
+        </div>
+        <div class="container">
+            <div class="row " id="categoryFood">
+                <!-- <div class="col-md-3 mt-5 position-relative overflow-hidden">
+                    <img src="imgs/logo.png" class="w-100 rounded-3" alt="">
+                    <div class="layer position-absolute rounded-3 bg-opacity-75 bg-light text-center">
+                        <h4 class="food-name fs-1 ">hello</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum error unde praesentium
+                            nobis soluta cum veritatis quia architecto quos aspernatur?</p>
+                    </div>
+
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <section id="categoryInfo">
+        <div class="container">
+            <div class="row " id="categoryDishes">
+
+            </div>
+        </div>
+
+    </section>
+    <!-- end category section -->
+
+    <!-- area section -->
+    <section id="area">
+        <div id="loadArea">
+            <div class="sk-chase">
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+              </div>
+        </div>
+        <div class="container">
+            <div class="row" id="areaFood">
+           
+
+            </div>
+        </div>
+    </section>
+
+    <section id="areaMeals">
+        <div class="container">
+            <div class="row " id="areaDishes">
+
+            </div>
+        </div>
+    </section>
+    <!-- end area section -->
+
+    <!-- section Ingredients -->
+    <section id="ingredients">
+        <div id="loadIng">
+            <div class="sk-chase">
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+              </div>
+        </div>
+        <div class="container">
+            <div class="row" id="ingredientsList">
+              
+            </div>
+        </div>
+    </section>
+
+    <section id="ingMeals">
+        <div class="container">
+            <div class="row " id="ingredientsContainer">
+        
+            </div>
+        </div>
+    </section>
+    <!-- end section ingredients -->
+
+
+    <!-- section contact us -->
+    <section id="contact">
+        <div class="container w-75 m-auto position-absolute contact">
+            <div class="d-flex">
+                <input id="uName" class="form-control shadow-none w-50 me-3" type="text"
+                    placeholder="Enter Your Name ...">
+                <input id="uEmail" class="form-control shadow-none w-50 me-3" type="email"
+                    placeholder="Enter Your Email ...">
+            </div>
+
+            <div class="d-flex">
+                <div id="nameVaild" class=" me-3 py-2 w-50 mt-1 rounded-3 valid">
+                    <p class="text-center">Special characters and numbers not allowed</p>
+                </div>
+                <div id="emailValid" class=" me-3 py-2 w-50 mt-1 rounded-3 valid">
+                    <p class="text-center">Email not valid *exemple@(gmail or yahoo).com</p>
+                </div>
+            </div>
+
+            <div class="d-flex mt-3">
+                <input id="uPhone" class="form-control shadow-none w-50 me-3" type="text"
+                    placeholder="Enter Your Phone ...">
+                <input id="uAge" class="form-control shadow-none w-50 me-3" type="text"
+                    placeholder="Enter Your Age ...">
+            </div>
+
+            <div class="d-flex">
+                <div id="phoneValid" class=" me-3 py-2 w-50 mt-1 rounded-3 valid">
+                    <p class="text-center">Enter valid Phone Number</p>
+                </div>
+                <div id="ageValid" class=" me-3 py-2 w-50 mt-1 rounded-3 valid">
+                    <p class="text-center">Enter age more than 18</p>
+                </div>
+            </div>
+
+            <div class="d-flex mt-3">
+                <input id="uPass" class="form-control shadow-none w-50 me-3" type="password"
+                    placeholder="Enter Your Password ...">
+                <input id="uRepass" class="form-control shadow-none w-50 me-3" type="password"
+                    placeholder="RePassword ...">
+            </div>
+
+            <div id="passValid" class=" px-3 py-2 mt-1 rounded-3 valid">
+                <p class="text-center">Enter valid password *Minimum eight characters, at least one
+                    letter and one number:*</p>
+            </div>
+
+
+
+            <div>
+                <p id="done" class="text-center py-2 fw-semibold fs-4"></p>
+                <button id="SubmitBtn"
+                    class="btn btn-outline-warning rounded-pill py-2 px-4 fw-semibold position-absolute mt-5">Submit</button>
+            </div>
+        </div>
+    </section>
+    <!-- end contact section -->
+
+    <script src="js/wow.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
